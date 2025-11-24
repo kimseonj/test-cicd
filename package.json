@@ -1,0 +1,29 @@
+{
+  "name": "test-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimseonj/test-cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kimseonj/test-cicd/issues"
+  },
+  "homepage": "https://github.com/kimseonj/test-cicd#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "just": "^0.1.8",
+    "supertest": "^7.1.4"
+  }
+}
