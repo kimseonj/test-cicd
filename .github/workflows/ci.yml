@@ -23,7 +23,7 @@ jobs:
         node-version: [19.x, 20.x, 22.x]
     
     # 각 작업에서 실행할 단계(step)들을 정의합니다.
-    step:
+    steps:
       # 소스 코드를 체크아웃합니다.
       - name: Checkout repository
         # Github 공식 checkout 액션을 사용하여 저장소의 코드를 가져옵니다.
@@ -44,6 +44,6 @@ jobs:
         run: npm install
       
       # 프로젝트의 테스트를 실행합니다.
-      - name: Run tets
+      - name: Run tests
         # npm test 명령을 실행하여 테스트를 수행합니다.
         run: npm test
